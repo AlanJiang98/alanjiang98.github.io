@@ -23,8 +23,8 @@ role: Researcher
 # organizations:
 #   - name: Sensetime
 
-# Short bio (displayed in user profile at end of posts)
-bio: Test
+# # Short bio (displayed in user profile at end of posts)
+# bio: Test
 
 # Interests to show in About widget
 interests:
@@ -37,12 +37,9 @@ education:
     - course: M.Sci. in CS
       institution: Peking University
       year: 2020-2023
-    - course: B.Eng. in EE
+    - course: B.Eng. in EE & Minor in Psychology
       institution: Tsinghua University
       year: 2016-2020
-    - course: Psychology Minor
-      institution: Tsinghua University
-      year: 2017-2020
 
 # # Skills
 # # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -91,7 +88,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: mailto:alanjjp98@gmail.com
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
