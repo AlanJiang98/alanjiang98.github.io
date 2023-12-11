@@ -241,10 +241,10 @@ sections:
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        city: Shanghai
+        city: Shanghai, China
       #   region: CA
       #   postcode: '94305'
-         country: China
+        #  country: China
         # country_code: China
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
