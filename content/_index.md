@@ -244,8 +244,8 @@ sections:
         city: Shanghai
       #   region: CA
       #   postcode: '94305'
-      #   country: United States
-        country_code: China
+         country: China
+        # country_code: China
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
@@ -268,15 +268,15 @@ sections:
       #     name: Zoom Me
       #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: false
+      # autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
