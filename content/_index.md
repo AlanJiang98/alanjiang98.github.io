@@ -206,7 +206,7 @@ sections:
   - block: collection
     content:
       title: Honors & Awards
-      text:
+      text: |-
         - Research Excellence Award, Peking University, 2022
         - Excellent Graduate (top 10%), Tsinghua University, 2020
         - National Scholarship (top 7/287), Tsinghua University, 2019
