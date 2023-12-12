@@ -4,10 +4,10 @@ summary: A framework utilizing language as the universal medium to build autonom
 tags:
   - HCI
   - AIGC
-date: 'Dec-12-23'
+date: 2023-12-12
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://digital-life-project.com/
+# external_link: https://digital-life-project.com/
 
 image:
   caption: Digital Life Project
@@ -25,6 +25,8 @@ url_video: https://www.youtube.com/watch?v=rj0QEdGbSMs
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
+
+ [Project Page](https://digital-life-project.com/)
 
 Reflecting on my past research, I've come to a profound realization: 
 **One should not let enthusiasm and obsession with a certain technology cloud their judgment of the complex and contradictory needs of ordinary people. The vastness of science and technology excites its participants, but the value of technology lies in its ability to serve the diverse needs of human society.**

@@ -4,7 +4,7 @@ summary: Enhancing robust hand interaction in VR by utilizing neuromorpgic senso
 tags:
   - HCI
   - XR
-date: 'Jun-30-23'
+date: 2023-06-30
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
