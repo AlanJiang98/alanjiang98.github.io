@@ -1,15 +1,14 @@
 ---
 title: |- 
   Artificial Intelligence: Technology and Governance
-date: 2019-07-09
+date: '2019-07-09'
 summary: Artificial Intelligence Risks and Governance from the Perspective of Chinese Youth.
----
 
 
 image:
   caption: AI Governance
   focal_point: Smart
-
+---
 
 [News Link](https://ciss.tsinghua.edu.cn/info/hyjx/461)
 
