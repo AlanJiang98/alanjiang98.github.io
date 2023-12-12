@@ -184,14 +184,14 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
   # - block: collection
   #   id: featured
   #   content:
@@ -206,10 +206,14 @@ sections:
   - block: collection
     content:
       title: Honors & Awards
-      text: |-
+      text:
+        - Research Excellence Award, Peking University, 2022
+        - Excellent Graduate (top 10%), Tsinghua University, 2020
         - National Scholarship (top 7/287), Tsinghua University, 2019
         - Jiang Nanxiang Scholarship (top 3/287), Tsinghua University, 2018
+        - Jiang Yang Bibliophile Scholarship (1/1000+), Tsinghua University, 2018,2019
     design:
+      view: compact
       columns: '2'
   # - block: collection
   #   id: talks
