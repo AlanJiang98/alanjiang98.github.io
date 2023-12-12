@@ -9,7 +9,7 @@ appearance:
   mode: system
   color: purple
   font: minimal
-  font_size: L
+  font_size: M
 
 # SEO
 
@@ -55,7 +55,7 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Dec 11, 2023'
+  date_format: '2023-12-13'
   time_format: '3:00 PM'
   address_format: en-us
 
