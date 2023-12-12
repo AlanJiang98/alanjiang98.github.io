@@ -4,7 +4,7 @@ summary: Enhancing robust hand interaction in VR by utilizing neuromorpgic senso
 tags:
   - HCI
   - XR
-date: '2023-06-30'
+date: 'Jun-30-23'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -34,7 +34,7 @@ In the first phase, we conducted hand pose estimation based on a single event ca
 
 After this work, I realized that using event cameras alone was insufficient for accurate hand pose estimation. However, event cameras and commercial RGB cameras are complementary in imaging. Thus, we developed multimodal fusion methods of these two types of camera data to ensure the accuracy and robustness of the algorithm.
 
-![Complementary Usage of Event Cameras and RGB Cameras](evrgbhand.png "caption")
+![evrgbhand](evrgbhand.png "Complementary Usage of Event Cameras and RGB Cameras")
 
 
 The biggest challenge with new camera forms is the lack of an ecosystem like that of RGB cameras, leading to slow growth in datasets and algorithms in the community. 
@@ -42,7 +42,7 @@ Currently, most research on event cameras tends to replicate RGB-based subdomain
 I believe this method fails to address the fundamental issues of the event camera community. The growth of new cameras should not be limited to minor, migration-style innovations. Instead, it should start from the differences in imaging dimensions, exploring the correlations between different sensor data modality. 
 This approach can effectively leverage the rapidly developing community (such as RGB cameras) to find its own unique path.
 
-![Learn a Plug-and-Play Module for Event and Image Fusion](evplug.png "caption")
+![evplug](evplug.png "Learn a Plug-and-Play Module for Event and Image Fusion")
 
 One idea was to use the correlation between RGB and event camera imaging to cross-modally distill an event fusion module plug-in from existing RGB-based algorithms and models. 
 This approach is versatile, cost-effective, and theoretically elegant, which is my favorite work after two years in this field. 
