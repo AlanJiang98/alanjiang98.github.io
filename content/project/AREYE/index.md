@@ -23,7 +23,8 @@ url_video: https://www.youtube.com/watch?v=bBzwN13CoQA
 # slides: example
 ---
 <!-- {{< video src="areye_intro.mp4" controls="yes" >}} -->
-[Video Introduction](../../../assets/media/areye_intro.mp4)
+
+{{< youtube bBzwN13CoQA >}}
 
 In the early stages, I believed the core of AR technology was the effective spatial alignment of real and virtual worlds, allowing virtual digital content to be overlaid in reality for enhancement usage.
 
