@@ -4,7 +4,7 @@ summary: A framework utilizing language as the universal medium to build autonom
 tags:
   - HCI
   - AIGC
-date: '2023-12-12T00:00:00Z'
+date: "2023-12-12T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: https://digital-life-project.com/

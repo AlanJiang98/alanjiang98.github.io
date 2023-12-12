@@ -55,7 +55,7 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Dec 12, 2023'
+  date_format: 'Jan 2, 2006'
   time_format: '3:00 PM'
   address_format: en-us
 
