@@ -115,5 +115,7 @@ social:
 highlight_name: true
 ---
 
-I'm currently a researcher at SenseTime Research, focusing on 3D avatars and content creation. My long-term goal is to create an immersive virtual world using AI, fulfilling needs unmet in real life. I encountered AR glasses in 2019 and see them as an effective platform. Since then, I've explored such areas: spatial alignment between virtual and real worlds, gesture interaction, and content generation centered around 3D avatars. I look forward to collaborating with others who share similar goals or technological routines to realize this vision.
+I'm currently a researcher at SenseTime Research, focusing on 3D avatars and content creation. My long-term goal is to create an immersive virtual world using AI, fulfilling needs unmet in real life. I encountered AR glasses in 2019 and see them as an effective platform. Since then, I've explored such areas: spatial alignment between virtual and real worlds, gesture interaction, and content generation centered around 3D avatars. 
+
+I look forward to collaborating with others who share similar goals or technological routines to realize this vision.
 {style="text-align: justify;"}
