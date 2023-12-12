@@ -3,7 +3,7 @@ title: AR Museum
 summary: Enhance the tourist experience especially in museums by using computer vision technologies on AR glasses to provide interactive and intellectual tutorial services.
 tags:
   - XR
-date: 2020-12-30
+date: "2020-12-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ''

@@ -1,7 +1,7 @@
 ---
 title: |- 
   Artificial Intelligence: Technology and Governance
-date: '2019-07-09'
+date: "2019-07-09T00:00:00Z"
 summary: Artificial Intelligence Risks and Governance from the Perspective of Chinese Youth.
 
 

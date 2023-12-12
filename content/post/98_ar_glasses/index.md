@@ -1,6 +1,6 @@
 ---
 title: The Pain Points of AR Glasses
-date: 2021-02-22
+date: "2021-02-22T00:00:00Z"
 image:
   caption: AR Glasses
   focal_point: Smart
