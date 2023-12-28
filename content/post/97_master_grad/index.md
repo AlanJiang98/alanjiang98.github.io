@@ -4,7 +4,7 @@ date: "2023-06-22T00:00:00Z"
 image:
   caption: Peking University
   focal_point: Smart
-
+summary: During my graduate studies at Peking University, I got some insights into personal capabilities, scientific research, self-management, and various reflections on life.
 
 ---
 
