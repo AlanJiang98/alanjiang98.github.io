@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="EvRGBHand: Complementing Event Streams and RGB Frames for Hand Mesh Reconstruction.">
+  <meta name="keywords" content="Event Camera, Hand Pose, Hand Mesh Reconstruction">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complementing Event Streams and RGB Frames for Hand Mesh Reconstruction</title>
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <link rel="icon" href="./static/images/icon.jpg">
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script defer src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <button class="navbar-burger" aria-label="Open navigation" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="../" aria-label="Jianping Jiang homepage">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <button class="navbar-link" aria-expanded="false" aria-controls="research-menu">More Research</button>
+        <div class="navbar-dropdown" id="research-menu">
+          <a class="navbar-item" href="../evrgbhand.github.io/">
+            EvRGBHand
+          </a>
+          <a class="navbar-item" href="../evhandpose.github.io/">
+            EvHandPose
+          </a>
+          <a class="navbar-item" href="https://arxiv.org/abs/2312.16933">
+            EvPlug
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Complementing Event Streams and RGB Frames for Hand Mesh Reconstruction</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><strong>CVPR 2024</strong></span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://alanjiang98.github.io/">Jianping Jiang</a><sup>&dagger; 1,2,3</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=en&user=AuuXzcIAAAAJ">Xinyu Zhou</a><sup>&dagger; 4</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.bingxuanwang.com/">Bingxuan Wang</a><sup>1,2,3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.idengxm.com/">Xiaoming Deng</a><sup>&Dagger; 5,6</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.cis.pku.edu.cn/info/1177/1375.htm">Chao Xu</a><sup>4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://camera.pku.edu.cn/People.htm">Boxin Shi</a><sup>&Dagger; 1,2,3</sup>,
+            </span>
+
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>NKLMIP, School of Computer Science, Peking University</span>
+            <span class="author-block"><sup>2</sup>NERCVT, School of Computer Science, Peking University</span>
+            <span class="author-block"><sup>3</sup>AIIC, School of Computer Science, Peking University</span>
+            <span class="author-block"><sup>4</sup>NKLGAI, School of Intelligence Science and Technology, Peking University</span>
+            <span class="author-block"><sup>5</sup>Institute of Software, Chinese Academy of Sciences</span>
+            <span class="author-block"><sup>6</sup>University of Chinese Academy of Sciences</span>
+          </div>
+
+            <div class="publication-links">
+
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2403.07346"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2403.07346"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://youtu.be/cEVkQ10fWh0"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/AlanJiang98/EvRGBHand"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://www.dropbox.com/scl/fi/x3bmfw2tfmqaghagb6alx/EvRealHands.zip?rlkey=gvukp6yv86ypmio7dnce20w2y&st=mg1z06o7&dl=0"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Reliable hand mesh reconstruction (HMR) from commonly-used color and depth sensors is challenging
+            especially under scenarios with varied illuminations and fast motions.
+            Event camera is a highly promising alternative for its high dynamic range and dense temporal resolution properties,
+             but it lacks salient texture appearance for hand mesh reconstruction.
+          </p>
+          <p>
+            In this paper, we propose EvRGBHand -- the first approach for 3D hand mesh reconstruction
+             with an event camera and an RGB camera compensating for each other.
+             By fusing two modalities of data across time, space, and information dimensions,
+             EvRGBHand can tackle overexposure and motion blur issues in RGB-based HMR and foreground
+             scarcity as well as background overflow issues in event-based HMR.
+             We further propose EvRGBDegrader, which allows our model to generalize effectively in challenging scenes,
+             even when trained solely on standard scenes, thus reducing data acquisition costs.
+             Experiments on real-world data demonstrate that EvRGBHand can effectively solve the challenging issues
+             when using either type of camera alone via retaining the merits of both,
+             and shows the potential of generalization to outdoor scenes and another type of event camera.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe loading="lazy" title="Research presentation video" src="https://www.youtube-nocookie.com/embed/cEVkQ10fWh0?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+        <br/>
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{Jiang2024EvRGBHand,
+  author    = {Jiang, Jianping and Zhou, Xinyu and Wang, Bingxuan and Deng, Xiaoming and Xu, Chao and Shi, Boxin},
+  title     = {Complementing Event Streams and RGB Frames for Hand Mesh Reconstruction},
+  journal   = {CVPR},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            Website template adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
